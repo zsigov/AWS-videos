@@ -1,0 +1,93 @@
+
+/*#region Description*/
+/* This css file contains all the css elements of the full site except the "MainHeader" element and it's children.
+In bigger scenarios I might use separate files for separate blocks but it isn't necessary here. 
+This is called in App.js*/
+/*#endregion */
+
+/*#region All Main Elements*/
+body {
+  background-color: brown;
+  text-align: center;
+}
+
+li{
+  margin:10px;
+  padding:5px
+}
+ 
+a{
+  background-color:  rgb(26, 21, 21);
+  color:goldenrod;
+  text-decoration: none;
+  border-radius: 12px;
+}
+
+span{
+  font-size: 20px;
+}
+/*#endregion */
+
+/*#region Main container and its children classes*/
+.mainContainer{
+  margin-left: 200px; 
+  margin-top:100px; 
+}
+
+.react-player {
+  margin: 10px;
+  float: left;
+}
+
+.selectRate {
+  float: right;
+  background-color: goldenrod;
+  color: black;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.rateOptions {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.divVideoDetails{
+  text-align: left;
+  margin-left: 200px; 
+  padding:20px;
+  float:left;
+}
+/*#endregion */
+
+/*#region Navbar and its children classes*/
+.mainNavBar{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 120px;
+  left: 0;
+  background-color: rgb(26, 21, 21);
+  color: goldenrod;
+  overflow-x: hidden; 
+  font-size: 30px;
+}
+
+.supportLinkBack{
+  padding: 5px;
+}
+
+.about, .news, .support{
+  margin-top: 150px;
+}
+
+.imgSideBar{
+  margin-top: 50px;
+  widows: 130px;
+  height: 130px;
+}
+/*#endregion */
+
+
+

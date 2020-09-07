@@ -1,0 +1,74 @@
+
+/*#region Description*/
+/* This css file contains all the elements and classes from MainHeader element and it's children. 
+This is called in MainHeader.js*/
+/*#endregion */
+
+/*#region MainHeader elements*/
+header{
+    height:100px;
+    width:100%;
+    background-color: rgb(26, 21, 21);
+    position: fixed;
+    top: 0px;
+}
+button{
+   margin:15px;
+}
+
+input{
+    margin: 5px;
+    width: 80px;
+    border: 0px;
+    padding: 1px; 
+    border-radius: 12px;  
+}
+
+label{
+    padding: 1px;
+    margin: 5px;
+    background-color: rgb(26, 21, 21);
+    color: goldenrod;
+    text-align: center;
+    text-decoration: solid;
+    text-decoration-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 4px;
+}
+/*#endregion */
+
+/*#region mainHeader classes*/
+.divInput{
+    margin:15px;
+    float: right;
+}
+
+.btnAwsmovies{
+float: left;
+background-color: goldenrod;
+color: black;
+text-align: center;
+text-decoration: solid;
+text-decoration-color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 300;
+font-size: 30px;
+border-radius: 12px;
+}
+
+.selectCategories{
+    float:left;
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-radius: 12px;
+    padding:1px;
+    margin:15px
+}
+/*#endregion */
+
+
+
